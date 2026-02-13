@@ -52,4 +52,4 @@ jobs:
           app-name: 'DistributedApplications'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_788852C8963240E4A9753EC2AA5665FD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B1A40F0175648F686623EBCE8A7C88C }}
