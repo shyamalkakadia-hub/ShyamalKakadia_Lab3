@@ -24,7 +24,7 @@ jobs:
           dotnet-version: '9.x'
 
       - name: Build with dotnet
-        run: dotnet build Lab3/Lab3.csproj--configuration Release
+        run: dotnet build Lab3/Lab3.csproj --configuration Release
 
       - name: dotnet publish
         run: dotnet publish Lab3/Lab3.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
@@ -54,5 +54,6 @@ jobs:
           package: .
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C058F07DE3845D19C996D5FA92B8FFD }}
+
 
 
